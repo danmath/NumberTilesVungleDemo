@@ -83,6 +83,9 @@
     VungleSDK* sdk = [VungleSDK sharedSDK];
     NSError* error;
     [sdk playAd:self error:&error];
+    if(error != nil) {
+        NSLog(@"%@", error);
+    }
     F3HScoreView *scoreView;
     F3HControlView *controlView;
     
@@ -259,6 +262,9 @@
     VungleSDK* sdk = [VungleSDK sharedSDK];
     NSError* error;
     [sdk playAd:self error:&error];
+    if(error != nil) {
+        NSLog(@"%@", error);
+    }
 }
 
 @end
