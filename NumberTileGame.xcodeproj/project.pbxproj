@@ -36,6 +36,7 @@
 		1A92D000191A016600E35C6C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A92CFFF191A016600E35C6C /* QuartzCore.framework */; };
 		3FF3C0827D9B463E3980175A /* libPods-NumberTileGameTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46381F14E4E0A1243CAA1F11 /* libPods-NumberTileGameTests.a */; };
 		AC20E6981B7E042D099D3A29 /* libPods-NumberTileGame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9AD344CD2EAB1580A46E2C /* libPods-NumberTileGame.a */; };
+		AF5F3F841CFED6EE0004EF70 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5F3F821CFED6EE0004EF70 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		46381F14E4E0A1243CAA1F11 /* libPods-NumberTileGameTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NumberTileGameTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA28F0F06E3DB8BA4806299 /* Pods-NumberTileGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberTileGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame.release.xcconfig"; sourceTree = "<group>"; };
 		A142AB699321AEF13911449F /* Pods-NumberTileGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberTileGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NumberTileGameTests/Pods-NumberTileGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF5F3F831CFED6EE0004EF70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C35E0680792A1E96C928F369 /* Pods-NumberTileGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberTileGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NumberTileGameTests/Pods-NumberTileGameTests.release.xcconfig"; sourceTree = "<group>"; };
 		CDD1359D202CF50C17C459BB /* Pods-NumberTileGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberTileGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NumberTileGame/Pods-NumberTileGame.debug.xcconfig"; sourceTree = "<group>"; };
 		DC9AD344CD2EAB1580A46E2C /* libPods-NumberTileGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NumberTileGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,6 +179,7 @@
 				1A3487F218DEBADA00D021C3 /* F3HNumberTileGameViewController.m */,
 				1A3487F418DEBB9C00D021C3 /* F3HTileAppearanceProvider.h */,
 				1A3487F518DEBB9C00D021C3 /* F3HTileAppearanceProvider.m */,
+				AF5F3F821CFED6EE0004EF70 /* Launch Screen.storyboard */,
 			);
 			path = NumberTileGame;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			files = (
 				1A3487CC18DEAD6E00D021C3 /* Images.xcassets in Resources */,
 				1A3487C418DEAD6E00D021C3 /* Main_iPhone.storyboard in Resources */,
+				AF5F3F841CFED6EE0004EF70 /* Launch Screen.storyboard in Resources */,
 				1A3487BB18DEAD6E00D021C3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +516,14 @@
 				1A3487DC18DEAD6E00D021C3 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AF5F3F821CFED6EE0004EF70 /* Launch Screen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5F3F831CFED6EE0004EF70 /* Base */,
+			);
+			name = "Launch Screen.storyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
